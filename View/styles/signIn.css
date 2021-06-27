@@ -1,0 +1,228 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1160px;
+  margin: auto;
+}
+
+a:hover {
+  color: rgb(141, 140, 140);
+}
+
+.YourLocal {
+  height: 24px;
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Icon {
+  width: 24px;
+  height: 24px;
+  color: #000000;
+  padding-top: 8px;
+}
+
+.Navigation__list {
+  display: flex;
+}
+
+.Navigation__list > * {
+  margin: 8px 24px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  height: 700px;
+  align-items: center;
+}
+
+.logar {
+  border: 3px solid rgb(165, 163, 163);
+  border-radius: 20px;
+  width: 50%;
+  height: 70%;
+  text-align: center;
+  background-color: #f9f9fb;
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 80%;
+}
+
+h2 {
+  padding-top: 30px;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.senha {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.email {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.login {
+  width: 50%;
+  background-color: #18a0fb;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login:hover {
+  background-color: #45a049;
+}
+/* form input#email {
+  width: 400px;
+  margin-bottom: 40px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form input#password {
+  width: 150px;
+  margin-bottom: 40px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form input#password2 {
+  width: 150px;
+  margin-bottom: 40px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form input#cadastrar {
+  background-color: #18a0fb;
+  color: white;
+  width: 130px;
+  height: 40px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+} */
+
+footer {
+  background-color: #cccccc;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 170px;
+  padding-bottom: 150px;
+}
+
+.footer-heading {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  padding-top: 15px;
+}
+
+.footer-heading h4 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-heading a {
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.footer-heading a1 {
+  margin-bottom: 5px;
+}
+
+.footer-icons {
+  height: 100px;
+  display: flex;
+}
+
+.footer-icons a {
+  padding-right: 5px;
+}
+
+.footer-email-form {
+  padding-top: 15px;
+  margin-bottom: 30px;
+}
+
+.footer-email-form h4 {
+  font-weight: bold;
+  padding-bottom: 15px;
+  margin-bottom: 5px;
+}
+
+#footer-email {
+  width: 250px;
+  height: 28px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  padding-left: 5px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+#footer-email-btn {
+  width: 100px;
+  height: 28px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+}
+
+#footer-email-btn:hover {
+  cursor: pointer;
+  background-color: rgb(52, 56, 66);
+  color: #cccccc;
+  transition: all 0.4s ease-out;
+}
+
+footer p {
+  font-size: 12px;
+}
